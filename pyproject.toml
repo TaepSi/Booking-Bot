@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "booking-bot"
+version = "0.1.0"
+description = "Telegram бот для записи клиентов"
+authors = ["Ты windywindy200.12@gmail.com"]
+
+[tool.poetry.dependencies]
+python = "^3.13"
+aiogram = "^3.7"
+aiosqlite = "^0.20"
+flask = "^3.0.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
