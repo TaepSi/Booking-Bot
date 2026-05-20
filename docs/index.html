@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Bot — запись клиентов</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', sans-serif; }
+        body { background: #1e1e2e; color: #cdd6f4; display: flex; justify-content: center; align-items: center; min-height: 100vh; padding: 20px; }
+        .card { background: #313244; border-radius: 24px; padding: 40px; max-width: 500px; width: 100%; box-shadow: 0 20px 40px rgba(0,0,0,0.4); text-align: center; }
+        .icon { font-size: 3em; margin-bottom: 15px; }
+        h1 { color: #f5c2e7; margin-bottom: 10px; }
+        .subtitle { color: #a6adc8; margin-bottom: 25px; line-height: 1.6; }
+        .features { text-align: left; background: #45475a; border-radius: 12px; padding: 20px; margin-bottom: 25px; }
+        .features li { list-style: none; padding: 5px 0; }
+        .btn {
+            display: inline-block; background: #cba6f7; color: #1e1e2e; padding: 12px 30px;
+            border-radius: 12px; text-decoration: none; font-weight: 700; font-size: 1.1em;
+            transition: 0.2s; margin: 5px;
+        }
+        .btn:hover { background: #b4befe; transform: scale(1.03); }
+        .footer { margin-top: 20px; color: #585b70; font-size: 0.8em; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="icon">📅</div>
+        <h1>Booking Bot</h1>
+        <p class="subtitle">
+            Telegram-бот для автоматической записи клиентов.<br>
+            Освобождает ваше время и работает 24/7.
+        </p>
+        <ul class="features">
+            <li>✅ Просмотр услуг с ценами</li>
+            <li>✅ Запись в 3 клика</li>
+            <li>✅ Автоматическая проверка занятых слотов</li>
+            <li>✅ Отмена записи клиентом</li>
+            <li>✅ Уведомление администратору о новых записях</li>
+            <li>✅ Админ-панель для добавления/удаления услуг</li>
+        </ul>
+        <a class="btn" href="https://t.me/bookingbotdemo_bot" target="_blank">🤖 Открыть демо-бота</a>
+        <a class="btn" href="https://kwork.ru/user/demurgas" target="_blank">💼 Заказать такого же</a>
+        <div class="footer">
+            © 2026 Booking Bot. Python + aiogram 3.x<br>
+            <a href="https://github.com/TaepSi/Booking-Bot" style="color: #585b70;">Исходный код на GitHub</a>
+        </div>
+    </div>
+</body>
+</html>
